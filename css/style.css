@@ -1,0 +1,30 @@
+.container {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.block-input {
+    display: flex;
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.search-input {
+    flex-grow: 1;
+    border-radius: inherit;
+    padding: 5px;
+    outline: none;
+    border: none;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+}
+
+.item:nth-child(odd) {
+    background-color: gray;
+}
